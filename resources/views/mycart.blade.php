@@ -23,7 +23,7 @@
                                <input type="hidden" name="delete" value="delete">
                                <input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
                                <input type="hidden" name="stock_id" value="{{ $my_cart->stock->id }}">
-                               <button type="submit" class="btn btn-dark text-center buy-btn" >カートから削除する</button>
+                               <button type="submit" class="btn btn-secondary text-center buy-btn" >カートから削除する</button>
                            </form>
                        </div>
                    @endforeach
