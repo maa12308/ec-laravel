@@ -11,7 +11,7 @@
    <!-- CSRF Token -->
    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-   <title>{{ config('app.name', 'ShopApp') }}</title>
+   <title>{{ config('app.name', 'Laravel') }}</title>
 
    <!-- Scripts -->
    <script src="{{ asset('js/app.js') }}" defer></script>
@@ -28,7 +28,7 @@
        <nav class="navbar navbar-expand-md navbar-light  shadow-sm" style="background-color:#fefefe; color:#fefefe;">
            <div class="container">
                <a class="navbar-brand" style="color:#555; font-size:1.4em; font-weight: bold;" href="{{ url('/') }}" >
-                   {{ config('app.name', 'ShopApp') }}
+                   {{ config('app.name', 'Laravel') }}
                </a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                    <span class="navbar-toggler-icon"></span>

@@ -10955,6 +10955,15 @@ img.incart {
      object-fit: cover;
 }
 
+img.mycart {
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .mycart_box {
   color: #4c4c4c;
   font-weight: bold;
@@ -10966,9 +10975,9 @@ img.incart {
 }
 
 .footer_design {
-  background-color: #07728a;
+  background-color: #fefefe;
   text-align: center;
-  color: #fefefe;
+  color: #000;
   padding: 60px;
 }
 
@@ -10976,7 +10985,6 @@ img.incart {
   margin: 40px auto 60px;
   width: 200px;
   display: block;
-  /* background-color: ; */
 }
 
 .ball {
